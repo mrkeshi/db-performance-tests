@@ -1,0 +1,13 @@
+POSTGRES_HOST = "127.0.0.1"
+POSTGRES_PORT = 5432
+POSTGRES_DB = "benchmark_db"
+POSTGRES_USER = "postgres"
+POSTGRES_PASSWORD = "yourpassword"
+
+__all__ = [
+    "POSTGRES_HOST",
+    "POSTGRES_PORT",
+    "POSTGRES_DB",
+    "POSTGRES_USER",
+    "POSTGRES_PASSWORD",
+]

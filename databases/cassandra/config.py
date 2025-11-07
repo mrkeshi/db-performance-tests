@@ -1,0 +1,3 @@
+CASSANDRA_HOST = "127.0.0.1"
+CASSANDRA_PORT = 9042
+KEYSPACE = "benchmark_keyspace"

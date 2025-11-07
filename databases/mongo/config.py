@@ -1,0 +1,5 @@
+MONGO_HOST = "127.0.0.1"
+MONGO_PORT = 27017
+DATABASE = "benchmark_db"
+USERNAME = "admin"
+PASSWORD = "123456"
