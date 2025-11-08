@@ -1,4 +1,4 @@
-#!/home/mrkaf/Desktop/Article_Benchmark/venv/bin/python3
+#!/home/mrkaf/Desktop/Article_Benchmark/db-performance-tests/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

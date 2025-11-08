@@ -20,7 +20,7 @@ class RedisConnector:
     def close(self):
         self.client.close()
 
-    def read_user_by_id(self, key):
+    def read_user_by_id(self,table, key):
         return self.client.hgetall(key)
 
     def update_user_fields(self, table, key, fields):
