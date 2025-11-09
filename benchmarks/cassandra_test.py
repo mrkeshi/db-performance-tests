@@ -1,10 +1,4 @@
 
-import random
-import string
-import uuid
-
-from base_test import BaseLoadTest
-from databases.cassandra import KEYSPACE, CASSANDRA_PORT, CASSANDRA_HOST, CassandraConnector
 
 
 from base_test import BaseLoadTest
@@ -22,9 +16,9 @@ if __name__ == "__main__":
     test = CassandraLoadTest(db, num_records=500_000)
 
     test.run_repeats_insert_concurrent(repeats=5, num_threads=50)
-
+    
     test.run_read_repeats_concurrent(repeats=5, num_threads=50)
-
+    
     test.run_mixed_repeats_concurrent(read_ratio=0.9, repeats=5, num_threads=50)
 
     test.run_mixed_repeats_concurrent(read_ratio=0.5, repeats=5, num_threads=50)
