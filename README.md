@@ -85,7 +85,7 @@ The objective was to ensure that performance differences across databases are so
 - **Record Structure:** Each record contains 10 fields (`attr0`–`attr4`, `_id`, `client`, `name`, `email`, `phone`, `age`, `country`), with an average record size of **~1 KB**.
 - **Unique Key:** `client` + 12 random digits
 - **Fields Include:** Name, Email, Phone Number, Age, Country, and 5 random fields (text/number, ~200 bytes each).
-- **Access Pattern:** Zipfian distribution
+- **Access Pattern:** uniform distribution
 - **Indexing:** All retrieval operations are indexed on the `_id` field of type **UUID**.
 - **Data Output:** Prepared and verified before loading into databases.
 
